@@ -18,6 +18,16 @@ a {
 /*************************************/
 /*=========     GLOBAL     =========*/
 /***********************************/
+/* Back to top Button */
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #fed136 !important;
+  border-color: #fed136 !important; }
+
 /*************************************/
 /*=========     HEADER     =========*/
 /***********************************/
@@ -25,8 +35,32 @@ a {
 /*=========     BANNER     =========*/
 /***********************************/
 /***************************************/
-/*=========     SERVICES     =========*/
+/*=========      Social      =========*/
 /*************************************/
+#social a {
+  margin-top: 50px;
+  font-size: 100px !important;
+  display: block;
+  transition: all 500ms 100ms ease-in-out;
+  height: 200px;
+  width: 200px;
+  line-height: 200px;
+  border-radius: 50%;
+  margin: auto; }
+
+#social .fa-facebook {
+  color: #3b5998 !important; }
+
+#social .fa-twitter {
+  color: #55acee !important; }
+
+#social .fa-pinterest {
+  color: #bd081c !important; }
+
+#social a:hover {
+  background-color: #d7a1a1;
+  font-size: 120px !important; }
+
 /****************************************/
 /*=========     PORTFOLIO     =========*/
 /**************************************/
