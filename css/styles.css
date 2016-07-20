@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
 body {
   font-family: "Roboto Slab";
   margin: 0; }
@@ -34,6 +35,81 @@ a {
 /*************************************/
 /*=========     BANNER     =========*/
 /***********************************/
+/*************************************/
+/*=========    SERVICES    =========*/
+/***********************************/
+#menu h2 {
+  font-size: 75px;
+  margin-bottom: 50px; }
+
+.titulo {
+  font-size: 50px;
+  color: black;
+  position: absolute;
+  float: left;
+  top: 60%;
+  left: 30%;
+  font-family: 'Rock Salt', cursive; }
+
+.item img {
+  float: left;
+  max-width: 50%;
+  padding: 0 !important;
+  height: 400px !important;
+  position: relative;
+  width: 100%; }
+
+.productos ul {
+  list-style: none;
+  padding-top: 75px;
+  float: left;
+  margin-left: 0; }
+
+.item img {
+  position: absolute;
+  float: left; }
+
+.item a h5 {
+  font-family: 'Rock Salt', cursive !important;
+  font-size: 50px !important;
+  color: grey;
+  position: relative;
+  float: left;
+  height: 350px;
+  opacity: 0;
+  transition: 700ms;
+  width: 95%; }
+  .item a h5:hover {
+    opacity: 1; }
+
+.combos {
+  margin-top: 20px; }
+
+.combos h5 {
+  font-family: 'Rock Salt', cursive !important;
+  font-size: 20px !important; }
+
+.combos a {
+  text-decoration: none;
+  /*height: 30px;*/
+  /*padding: 8px 0;*/
+  display: inline-block;
+  /*transition: all 450ms linear;*/
+  transition: 600ms;
+  position: relative; }
+  .combos a h5 {
+    float: left;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    opacity: 0;
+    transition: 700ms; }
+  .combos a:hover {
+    background-color: #ffce47;
+    font-size: 20px !important; }
+    .combos a:hover h5 {
+      opacity: 1; }
+
 /***************************************/
 /*=========      Social      =========*/
 /*************************************/
