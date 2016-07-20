@@ -3,3 +3,42 @@
 /******************************************/
 
 // version SM
+
+
+@media (max-width:1000px) {
+
+#footer h2 {
+	float:none;
+	width:100%;
+	text-align:center;
+	font-size:10px;
+}
+
+#footer p{
+	float:none;
+	text-align:center;
+	width:100%;
+	font-size:10px;
+	padding-top:0;
+
+}
+
+
+}
+
+
+
+@media (max-width:650px) {
+
+	.item a h5{
+		font-size:30px !important;
+	}
+}
+
+
+@media (max-width:400px) {
+
+	.item a h5{
+		font-size:20px !important;
+	}
+}
