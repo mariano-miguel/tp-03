@@ -31,6 +31,9 @@ a {
 /*************************************/
 /*=========     HEADER     =========*/
 /***********************************/
+.navbar-default .navbar-nav > .active > a {
+  background-color: #fed136; }
+
 .navbar {
   height: 70px;
   color: white;
@@ -235,7 +238,20 @@ a {
     width: 100%;
     font-size: 10px;
     padding-top: 0; } }
-@media (max-width: 650px) {
+@media (max-width: 768px) {
+  .navbar-default .navbar-nav > .active > a {
+    background-color: #2f2e2e; }
+
+  #nav-links {
+    background-color: #2f2e2e; }
+    #nav-links ul {
+      margin: 0;
+      height: 124px; }
+    #nav-links li a {
+      border-bottom: 1px solid grey;
+      font-size: 20px;
+      height: 30px; }
+
   .item a h5 {
     font-size: 30px !important; } }
 @media (max-width: 400px) {

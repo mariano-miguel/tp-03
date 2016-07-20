@@ -7,6 +7,7 @@
 
 @media (max-width:1000px) {
 
+
 #footer h2 {
 	float:none;
 	width:100%;
@@ -28,8 +29,28 @@
 
 
 
-@media (max-width:650px) {
+@media (max-width:768px) {
 
+.navbar-default .navbar-nav>.active>a{
+	background-color:$comp-color;
+}
+
+
+#nav-links{
+	background-color:$comp-color;
+ul{margin:0;
+	height:124px;
+}
+	
+li a{
+	 border-bottom:1px solid grey;
+	 font-size:20px;
+	 height:30px;
+	 
+
+
+}
+}
 	.item a h5{
 		font-size:30px !important;
 	}
